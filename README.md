@@ -52,6 +52,7 @@ Tree-Decomposition(G)
 
 
 Two_Bag
+
      v <- Dequeue(Q1)
      if bagged(v) = false then
            bag-counter <- bag-counter + 1                                     Creación de la bolsa para el vértice v
@@ -86,6 +87,7 @@ Two_Bag
      end
 
 Three-Bag
+
      v.<- Dequeue(Q2)
      if  bagged(v) = false  then
            bag-counter <- bag-counter + 1                                         Creación de la bolsa para el vértice v
