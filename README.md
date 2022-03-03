@@ -23,6 +23,7 @@
     • Extract-Pair(v): Función que extrae de la lista v.adj-list a los únicos dos vértices u, w tal que    u.bagged = false y w.bagged = false.
 
 Tree-Decomposition(G)
+
      for i <- 1 to n  do
            Compute-Degree(i)
            i.bagged <- false
